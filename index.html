@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.js" integrity="sha512-K0pOiOu3G8R2xDzk0RsZHUywWA4nWr/1Dg09qbQRGn3tY3Ra9hzIvVtp71GeM/uxqPPM38KA+GAOB4vgNTWOtA==" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+	<!-- <p><button onclick="getNumber()">Generate</button></p> -->
+	<input type="hidden" id="result">
+	<input type="hidden" id="result2">
+	<input type="hidden" style="width:350px"  onload="grow(this)" placeholder="string" id="stringHolder">
+	<canvas id="canv"></canvas>
+
+	<br>
+	<input type="hidden" id="summary">
+	<br>
+	<h2>Inputkan hasil Captcha</h2>
+	<hr>
+	<br>
+	<input type="text" id="jawaban">
+	<br><br>
+	<button onclick="compare()">Jawab</button>
+	<br>
+</body>
+<script type="text/javascript" src="scripts.js"></script>
